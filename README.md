@@ -11,20 +11,20 @@ When you name a bit of data, the name becomes a reference to that data making wh
 An array is a particular kind of type in javascript. Think of it as an ordered list of things, and each thing in the list has an index number that tells what position that thing has in the list. For example, say we have a variable named "cars". We can declare it as
 ```sh
 $ var cars;
-'''
+```
 The "var" tells the interpreter that you are declaring a variable.
 
 Now we set the cars variable to equal an array of string types containing car names. The notation for an array is "[" to begin the array and "]" to finish it.
 ```sh
 $ cars = ["Ford","Honda","BMW","KIA"];
-'''
+```
 We can then access individual items in the array by their index number thusly:
 ```sh
 $ cars[0]; // "Ford"
 $ cars[1]; // "Honda"
 $ cars[2]; // "BMW"
 $ cars[3]; // "KIA"
-'''
+```
 Note that array indices are "0-based", meaning the first item index is 0, not 1.
 
 In addition to being a container for an ordered list of things, array types provide a variety of properties and methods for getting information about the list, searching it, and changing it. For example,
@@ -33,7 +33,7 @@ $ cars.length; // returns 4, the number of items in the array.
 $ cars.indexOf("Ford"); // returns "0", the index of the "Ford" string in the array
 $ cars.push("Mini"); // adds the string "Mini" at the end of the array
 $ cars.pop(); // removes the last item of the array
-'''
+```
 It may seem simple, but arrays are extremely useful and ubiquitous!
 
 
