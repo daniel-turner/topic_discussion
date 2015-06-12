@@ -2,8 +2,6 @@
 
 ##Javascript
 ###Dynamic Typing
-I thought this would bother me a lot coming from strongly-typed languages. So far, however, it's been uncomfortable at times, but mostly enjoyable!
-
 When you name a bit of data, the name becomes a reference to that data making what we call a variable. Every variable has a type which tells whether it is a number (and sometimes what kind of number it is), a string of text, or more complex but still elemental types like arrays and objects. This tells the interpreter (that processes the javascript code) how to handle the data that the variable references. In strictly-typed languages, a variable's type is always strictly defined. You can change the type if you want (sometimes!), but every variable has an explicitly defined type which is enforced at all times. In a dynamically-typed language like javascript, on the other hand, the type of the variable is often inferred from the data it references, or contextually, in how it is used in functions.
 
 ###Arrays
@@ -34,8 +32,6 @@ $ cars.indexOf("Ford"); // returns "0", the index of the "Ford" string in the ar
 $ cars.push("Mini"); // adds the string "Mini" at the end of the array
 $ cars.pop(); // removes the last item of the array
 ```
-It may seem simple, but arrays are extremely useful and ubiquitous!
-
 
 ###Objects
 
